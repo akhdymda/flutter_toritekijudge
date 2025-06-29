@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyALsAXqNIPs2TfnvxqnHAiUIhS7m77_wfs</string>
+	<string>${IOS_API_KEY}</string>
 	<key>GCM_SENDER_ID</key>
-	<string>291031883552</string>
+	<string>${MESSAGING_SENDER_ID}</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.toritekiHantei</string>
+	<string>${IOS_BUNDLE_ID}</string>
 	<key>PROJECT_ID</key>
-	<string>flutter-practice-878ec</string>
+	<string>${PROJECT_ID}</string>
 	<key>STORAGE_BUCKET</key>
-	<string>flutter-practice-878ec.firebasestorage.app</string>
+	<string>${STORAGE_BUCKET}</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:291031883552:ios:a3ff40c04433316ff28145</string>
+	<string>${IOS_APP_ID}</string>
 </dict>
 </plist>

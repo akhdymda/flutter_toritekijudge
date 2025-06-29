@@ -18,7 +18,7 @@ migrate_working_dir/
 *.iws
 .idea/
 *.json
-firebase_options.dart
+google-services.json
 
 
 # The .vscode folder contains launch configuration and tasks you configure in
@@ -46,3 +46,6 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist

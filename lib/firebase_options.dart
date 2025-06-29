@@ -50,19 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyASVdyBnL1mUuzE24n24b2BtknEg_SXL_Y',
-    appId: '1:291031883552:android:a6cfc53a1f5ce1d0f28145',
-    messagingSenderId: '291031883552',
-    projectId: 'flutter-practice-878ec',
-    storageBucket: 'flutter-practice-878ec.firebasestorage.app',
+    apiKey: String.fromEnvironment('ANDROID_API_KEY'),
+    appId: String.fromEnvironment('ANDROID_APP_ID'),
+    messagingSenderId: String.fromEnvironment('MESSAGING_SENDER_ID'),
+    projectId: String.fromEnvironment('PROJECT_ID'),
+    storageBucket: String.fromEnvironment('STORAGE_BUCKET'),
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyALsAXqNIPs2TfnvxqnHAiUIhS7m77_wfs',
-    appId: '1:291031883552:ios:a3ff40c04433316ff28145',
-    messagingSenderId: '291031883552',
-    projectId: 'flutter-practice-878ec',
-    storageBucket: 'flutter-practice-878ec.firebasestorage.app',
-    iosBundleId: 'com.example.toritekiHantei',
+    apiKey: String.fromEnvironment('IOS_API_KEY'),
+    appId: String.fromEnvironment('IOS_APP_ID'),
+    messagingSenderId: String.fromEnvironment('MESSAGING_SENDER_ID'),
+    projectId: String.fromEnvironment('PROJECT_ID'),
+    storageBucket: String.fromEnvironment('STORAGE_BUCKET'),
+    iosBundleId: String.fromEnvironment('IOS_BUNDLE_ID'),
   );
 }
