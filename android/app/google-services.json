@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "291031883552",
+    "project_id": "flutter-practice-878ec",
+    "storage_bucket": "flutter-practice-878ec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291031883552:android:a6cfc53a1f5ce1d0f28145",
+        "android_client_info": {
+          "package_name": "com.example.toriteki_hantei"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASVdyBnL1mUuzE24n24b2BtknEg_SXL_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
